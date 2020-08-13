@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
     <body>
-        <h1>Ofertas</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Verduleria CaChOn</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Volver al inicio<span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+        </nav>
+        <h1 class="text-center">Ofertas</h1>
 
-        <table border="1">
-            <thead>
-                <tr><th>Nombre</th><th>Descripcion</th><th>Precio</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>Manzana verde</td><td>manzana que no maduró</td><td>$10.00</td></tr>
-                <tr><td>Manzana roja</td><td>Descripcion2</td><td>Precio2</td></tr>
-                <tr><td>Manzana negra</td><td>Descripcion3</td><td>Precio3</td></tr>
-            </tbody>
-        </table>
-        <br>
-        <p>
-            <a href="index.html">Volver al inicio</a>
-        </p>
+        <div class="container">
+            <div class="row">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Precio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Manzana verde</td>
+                        <td>manzana que no maduró</td>
+                        <td>$10.00</td>
+                      </tr>
+                      <tr>
+                        <td>Manzana roja</td>
+                        <td>Descripcion2</td>
+                        <td>Precio2</td>
+                      </tr>
+                      <tr>
+                        <td>Manzana negra</td>
+                        <td>Descripcion3</td>
+                        <td>Precio3</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
     </body>
 </html>
